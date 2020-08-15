@@ -6,6 +6,10 @@ body{
 
   
 }
+#about_img{
+    width: 300px;
+    border-radius: 50%;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -91,6 +95,10 @@ padding-top: 10px;
 
 
 @media only screen and (max-width: 600px) {
+    #about_img{
+        width: 200px;
+        border-radius: 50%;
+    }
     .social a{
         font-size: 2.5em;
         padding-left: 1em;
